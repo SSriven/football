@@ -1,0 +1,362 @@
+
+.main{
+    width:768px;
+    margin:0 auto;
+    min-height: 5000px;
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    height: auto;
+}
+.section1{
+    width:768px;
+    height:70px;
+    margin: 5px auto;
+    margin-top: 95px;
+}
+.map{
+    width:150px;
+    height: 40px;
+    padding: 15px 0;
+}
+.map li{
+    float:left;
+    height:40px;
+    line-height: 40px;
+    width:40px;
+    text-align: center;
+    font-size: 14px;
+    color:#222c3a;
+}
+.map li a:hover{
+    text-decoration: underline;
+}
+
+.section2{
+    width: 90%;
+    margin:0 auto;
+    min-height: 300px;
+    padding: 20px 0;
+}
+.team-title{
+    height:40px;
+    border-bottom: 1px solid #eee;
+}
+.shu-title{
+    width:10px;
+    height: 40px;
+    background: #006bb7;
+    float: left;
+}
+.word-title{
+    width:100px;
+    margin-left: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+#team-info{
+    width:100%;
+    /*! min-height: 600px; */
+    padding-top:20px;
+
+    color: #333;
+    font-size: 16px;
+}
+#team-pic{
+    width:200px;
+    height: 200px;
+    float: left;
+    clear: both;
+}
+.word-content{
+    float: left;
+    max-width: 691.2px;
+    margin-left: 10px;
+    /*! white-space: initial; */
+    /*! word-wrap: break-word; */
+    /*! word-break: keep-all; */
+    /*! min-width: 471.2px; */
+    clear: both;
+}
+.word-content p{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color:#4d4d4d;
+}
+.section3{
+    width:90%;
+    margin:0 auto;
+    padding:20px 0;
+    min-height: 100%;
+}
+#software{
+    width:100%;
+
+    min-height: 5200px;
+}
+#software .active{
+    display: block;
+}
+#software .none{
+    display: none;
+}
+.stu{
+    width:100%;
+    float:left;
+    padding-right: 5%;
+    /*! max-height: 2800px; */
+}
+.team-software{
+    height: 40px;
+    padding-top:20px;
+    border-bottom: 1px solid #eee;
+
+}
+h6{
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    padding-left: 20px;
+    color:#006bb7;
+    font-weight: bold;
+    border-bottom: 3px solid #006bb7;
+    font-size: 18px;
+}
+#teacher{
+    width:100%;
+    float: left;
+}
+.team-member{
+    width:100%;
+    min-height: 330px;
+}
+.first-members{
+    padding-top:90px;
+}
+.team-member p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.member{
+    min-height: 330px;
+    width: 100%;
+    overflow: hidden;
+}
+.member ul li{
+    width: 220.4px;
+    margin-right: 10px;
+    height: 321px;
+    float:left;
+    margin-bottom: 10px;
+    position: relative;
+}
+.people{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.people img{
+    height: 321px;
+}
+.people .show-info{
+    display: none;
+    height: 124px;
+    width: 206px;
+    position: relative;
+    left: 0;
+    top: -140px;
+    background: rgba(255,255,255,0.7);
+    padding:8px 15px;
+    /*! overflow: hidden; */
+
+}
+.people:hover .show-info{
+    display: block;
+    animation: show 0.5s ease-out;
+    -webkit-animation: show 1s ease;
+
+}
+@keyframes show{
+    from{
+        top:0;
+    }
+    to{
+        top:-140px;
+    }
+}
+.people .show-info p{
+    padding:1px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: normal;
+    color: #333;
+    font-family: "微软雅黑";
+}
+.show-info span{
+    margin-left: 10px;
+}
+#team-coach-and-teacher{
+    width:100%;
+    min-height: 1000px;
+    margin: 30px 0 0 0;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+}
+.coach-and-teacher{
+    width: 100%;
+}
+.c-and-t-pic{
+    width:50%;
+    height: 300px;
+    margin-right: 10%;
+    margin-top: 10%;
+    float: left;
+}
+.c-and-t-pic img{
+    height: 100%;
+    width: 100%;
+}
+.introduce{
+    width: 40%;
+    float: left;
+    height: 120px;
+    margin-top: 100px;
+    padding-top: 30px
+}
+.introduce p{
+    color:#666;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.introduce p:first-child{
+    font-size: 32px;
+    font-weight: bold;
+    color:#666;
+    margin-bottom: 20px;
+}
+.ct{
+    width: 80%;
+    margin:0 10%;
+    height: 400px;
+    border-bottom: 1px solid #ddd;
+}
+.one{
+    width: 100%;
+    max-height: 2800px;
+}
+#fixed-lamp{
+    position: fixed;
+    left: -100px;
+    top:40%;
+    width: 150px;
+    height: 180px;
+    background:rgba(237,237,237,0);
+    cursor: pointer;
+    transition: left 1s;
+    z-index: 1;
+}
+#fixed-lamp:hover{
+    left:-10px;
+    transition-duration: 1s;
+}
+#fixed-lamp ul{
+    width: 80%;
+    margin: 10%;
+    height: 80%;
+    margin-left: 0;
+}
+#fixed-lamp ul li{
+    width: 100%;
+    height: 33%;
+    line-height: 47.5px;
+    padding-left: 20px;
+    background: #006bb7;
+    margin-bottom: 10px;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+}
+#fixed-lamp ul li:hover{
+    font-size: 24px;
+    width: 110%;
+}
+#fixed-lamp ul li a{
+    color: #ededed;
+}
+.cap-man{
+    width: 90%;
+    margin: 0 5%;
+    height: 300px;
+    border-bottom: 1px solid #ddd;
+}
+.cap-man-pic{
+    width: 200px;
+    height: 200px;
+    margin:50px 5%;
+    float: left;
+}
+.cap-man-pic img{
+    width: 100%;
+    height: 100%;
+}
+.cap-man-introduce{
+    float: left;
+    width: 200px;
+    height: 160px;
+    margin: 50px 5%;
+    padding-top: 40px;
+}
+.cap-man-introduce p{
+    font-size: 16px;
+    color:#666;
+    height: 30px;
+    line-height: 30px;
+}
+.cap-man-introduce p:first-child{
+    font-size: 24px;
+    color:#555;
+    height: 30px;
+    line-height: 30px;
+}
+nav{
+    
+    height:75px;
+    display: block;
+}
+nav .left{
+    width: 25%;
+    height: 100%;
+    border-bottom:2px solid #ededed;
+    float: left;
+}
+nav .right{
+    width: 25%;
+    height: 100%;
+    border-bottom:2px solid #ededed;
+    float: left;
+}
+nav ul{
+    width: 50%;
+    margin:0 auto;
+    height: 100%;
+    float: left;
+}
+nav ul li{
+    float:left;
+    height: 50px;
+    margin-top: 25px;
+    line-height: 50px;
+    width:49.5% ;
+    text-align: center;
+    cursor: pointer;
+}
+nav .active{
+    border: 2px solid #eee;
+    border-bottom: none;
+}
+nav .none{
+    border-bottom: 2px solid #eee;
+}
